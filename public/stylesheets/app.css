@@ -1,0 +1,33 @@
+header{
+    background-color: rgba(43, 226, 43, 0.5);
+    color: brown;
+    padding: 32px;
+}
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+  main {
+    background-color: white;
+    padding: 16px;
+  }
+  .finstagram-post {
+    margin-bottom: 48px;
+  }
+  .finstagram-post .user-info img {
+    border-radius: 50%;
+  }
+  .comments {
+    color: red;
+  }
+  .user-info:hover{
+     color: coral;
+  }
+  a.photo{
+    transition: padding 0.5s;
+  }
+  a.photo:hover{
+    padding: 10px;
+  }
