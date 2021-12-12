@@ -9,26 +9,22 @@
         <link rel="stylesheet" href="/stylesheets/lib.css">  
         <link rel="stylesheet" type="text/css" href="/stylesheets/app.css"> 
         <title>Finstagram</title>
-
     </head>
     <body>
-    
-        <header>
-          <h1>Finstagram</h1>
+      <header>
+        <h1><a href="/">Finstagram</a></h1>
         <div class="login-info">
           <% if current_user %>
             <%= current_user.username %>
             <a href="/logout">Logout</a>
           <% else %>
-                <a href="/login">Login</a>
-                <a href="/signup">Signup</a>
+            <a href="/login">Login</a>
+            <a href="/signup">Signup</a>
           <% end %>
         </div>
-        </header>
-         <main role="main">
-         <%= yield %>
-        </main>
+      </header>
+      <main role="main">
+        <%= yield %>
+      </main>
     </body>
-
-    
 </html>
